@@ -31,7 +31,7 @@ function form(formSelector, modalTimerId) {
 
       const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-      postData("http://localhost:3000/requests", json)
+      postData("https://github.com/ZizzX/Food-2.0/blob/main/db.json/requests", json)
         .then((data) => {
           console.log(data);
           showThanksModal(message.success);
