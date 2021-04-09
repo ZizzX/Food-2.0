@@ -45,7 +45,7 @@ function menuCard() {
 
  
 
-  getResource("http://localhost:3000/menu").then((data) => {
+  getResource("https://github.com/ZizzX/Food-2.0/blob/main/db.json/menu").then((data) => {
     data.forEach(({ img, altimg, title, descr, price }) => {
       new MenuCard(
         img,
